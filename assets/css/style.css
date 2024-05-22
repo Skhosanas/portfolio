@@ -208,13 +208,17 @@ img {
 
 .icon-skills  {
     margin-top: 50px;
-   
-
 }
 .icon-skills img {
     width: 80px;
     padding: 10px;
 
+}
+.Dumisani {
+    color: white;
+}
+.navbar-toggler{
+    background-color: white ;
 }
 
 /* background: rgb(249,125,6);
