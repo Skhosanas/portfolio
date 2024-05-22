@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 240, 240);
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px 30px 30px;
+}
+
+
+
+.logo {
+    text-align: left;
+    margin: 20px;
+}
+
+
+h2 {
+    padding: 30px 0px ;
+}
+
+button {
+    background-color: red;
+    padding: 20px;
+    border: 0;
+    border-radius: 80px ;
+    color: white;
+    margin: 30px 0px;
+    font-weight: 600;
+}
+
+#list {
+    padding-bottom: 10px;
+    line-height: 23px;
+}
+
+#section1{
+    line-height: 25px;
+    padding-top: 10px;
+
+}
+
+#section{
+    line-height: 25px;
+    background-color:;
+
+}
+#note {
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 0.9s;
+
+}
+
+.icons{
+    margin: auto;
+    padding-bottom: 20px;
+ }
+
+.footer {
+    padding-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(174, 175, 175);
+
+}

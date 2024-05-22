@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  
+}
+
+.top {
+  padding: 20px;
+  background-color: rgb(18, 16, 23);
+  color: aliceblue;
+  font-family: 'roboto', Times, serif;
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  font-size: 12px;
+  
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  justify-items: right;
+
+}
+
+input{
+  width: 1000px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 40px;
+  border: 0px;
+  padding: 0;
+  padding: 20px;
+  font-size: 14px;
+
+}
+.btn{
+  width: 50px;
+  height: 41px;
+  background-color: rgb(228, 194, 149);
+  border: 0;
+  border-radius: 0px 10px 10px 0;
+  padding: 0;
+}
+.btn-2{
+  width: 50px;
+  height: 41px;
+  border-radius: 10px 0 0 10px;
+}
+#iconi{
+  width: 20px;
+  color: white;
+}
+
+#flag{
+  width: 30px;
+  margin-right: 8px;
+}
+
+.top-center{
+  justify-content: center;
+}
+
+.top-right{
+  
+}
+.logo{
+  
+}
+
+.top-left{
+  display: flex;
+  
+}
+
+span{
+  font-size: 14px;
+  font-weight: 600;
+}
