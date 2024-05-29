@@ -177,6 +177,7 @@ img {
 }
 
 .iconbox {
+    
     width: 60px;
     height: 60px;
     display: flex;
@@ -191,6 +192,8 @@ img {
 .navbar {
     background-color: var(--color-base);
 }
+
+
 
 .navbar .nav-link {
     font-weight: 700;
