@@ -58,6 +58,13 @@ h4 {
   font-family: "Work Sans", sans-serif;
 
 }
+h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+
+}
 
 .mains-box-3 {
   display: flex;
