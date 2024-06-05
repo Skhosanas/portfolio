@@ -24,10 +24,12 @@ picture {
 /* heabder*/
 .top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 1070px;
   margin: 20px auto;
+  padding: 0 100px;
 }
 
 .logo {
@@ -39,6 +41,7 @@ picture {
 
 .top-menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
@@ -46,6 +49,7 @@ picture {
 
 .nav-conatiner {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 40px;
   border-top: 1px solid #2e2e2e;
@@ -56,6 +60,7 @@ picture {
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
 
@@ -95,8 +100,6 @@ p {
 
 }
 
-
-
 button {
   border: 1px solid transparent;
   padding: 6px 10px;
@@ -130,36 +133,37 @@ footer {
   margin-top: 100px;
 }
 
-.footer-col-1{
+.footer-col-1 {
   padding: 20px;
 }
 
-.footer-box-1{
+.footer-box-1 {
   width: 400px;
   color: #ffffff !important;
   font-size: 14px;
 }
 
 .footer-links li {
- color: white;
- list-style: none;
- margin-top: 4px;
+  color: white;
+  list-style: none;
+  margin-top: 4px;
 }
 
 .footer-links a {
   color: white;
-  
+
 }
-.footer-logos{
+
+.footer-logos {
   margin-top: 30px;
 }
 
-.footer-svg-1{
+.footer-svg-1 {
   margin-top: 20px;
   display: flex;
 }
 
-.footer-svg{
+.footer-svg {
   width: 40px;
   color: #ffffff;
 }
