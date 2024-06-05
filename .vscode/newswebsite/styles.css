@@ -1,7 +1,24 @@
 * {
-  margin: auto 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'General Sans', sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+  user-select: none;
 }
 
 /* heabder*/
@@ -155,19 +172,6 @@ h4 {
 
 }
 
-
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  max-width: 1100px;
-  margin: 0 auto;
-
-}
-
-
-
 button {
   letter-spacing: 4px;
   margin-top: 30px;
@@ -228,36 +232,18 @@ section {
   line-height: 1.5rem;
 }
 
-@media screen and (max-width: 460px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    width: 100%;
+@media (min-width: 475px) {}
 
-  }
+@media (min-width: 475px) {}
 
-  .sec-container {
-    width: 400px;
-  }
+@media (min-width: 475px) {}
 
-  .grid-box-1 {
-    width: 100%;
+@media (min-width: 475px) {}
 
-  }
+@media (min-width: 475px) {}
 
-  .grid-box-2 {
-    width: 100%;
+@media (min-width: 475px) {}
 
-  }
+@media (min-width: 475px) {}
 
-  .grid-box-3 {
-    width: 100%;
-
-  }
-
-  .grid-box-4 {
-    width: 100%;
-
-  }
-
-}
+@media (min-width: 475px) {}

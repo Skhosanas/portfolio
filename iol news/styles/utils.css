@@ -1,0 +1,157 @@
+.main-container {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.active {
+  background-color: #b10707;
+  padding: 10px 10px;
+  color: #ffffff !important;
+  text-transform: capitalize;
+}
+
+@media (min-width: 375px) {
+  .main-container {
+    /* min-width: 375px; */
+
+  }
+
+  .mains-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .article-box-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .article-box-1 img {
+    width: 100px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+  .content {
+  display: flex;
+  flex-wrap: wrap;   
+  
+  }
+  .article-container {
+    border-left:0;
+    border-right: 0;
+    
+    }
+
+  .section-container {
+    border-left: 0;
+    border-right: 0;
+   }
+
+  .article-box-1 {
+    border-left: 0;
+    border-right: 0;
+  }
+}
+
+
+@media (min-width: 640px) {
+  .main-container {
+    max-width: 475px;
+
+  }
+ .article-container {
+   border-left: 0;
+   border-right: 0;
+
+ }
+
+ .section-container {
+   border-left: 0;
+   border-right: 0;
+ }
+  
+}
+
+@media (min-width: 748px) {
+  .main-container {
+    max-width: 748px;
+
+  }
+
+  .article-container {
+    border-left:0;
+    border-right: 0;
+  }
+
+  .section-container {
+    border-left: 0;
+    border-right: 0;
+   }
+
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {
+  .main-container {
+    min-width: 1536px;
+  } 
+
+  .mains-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-right: 20px;
+  }
+
+  .mains-box-3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .article-box-1 {
+    display: flex;
+    width: 300px;
+    margin: 0;
+    
+    
+  }
+  .article-box-1 img {
+    width: 100%;
+    
+  }
+  
+  }
+  .article-container{
+    border-left: 1px solid #d9d8d6;
+    border-right: 1px solid #d9d8d6;
+    padding: 0 20px; 
+  }
+  .section-container{
+    border-right: 1px solid #d9d8d6;
+    padding: 0 20px;
+  }
+
+  .btn {
+    background-color: #e9e8e8;
+    margin-bottom: 20px;
+  }
+  .content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  
+  }
+
+}

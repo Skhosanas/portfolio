@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0 auto;
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+/* heabder*/
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1070px;
+  margin: 20px auto;
+}
+.logo {
+  display: flex;
+  width: 150px;
+  justify-content: flex-end;
+
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-conatiner {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  border-top: 1px solid #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
+  text-align: center;
+}
+
+
+.links {
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+}
+
+.links li {
+  margin: 0 20px;
+  list-style: none;
+  text-align: right;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  text-transform: capitalize;
+  
+}
+
+
+a:active {
+      background-color: #db0808;
+      color: #ffffff;
+      
+    }
+    
+a:hover {
+  color: #ffffff;
+  background-color: #db0808;
+  padding: 10px;
+}
+
+p {
+  color: var(--text-color);
+  font-family: "Work Sans", sans-serif;
+  
+}
+
+
+
+button {
+  border: 1px solid transparent;
+  padding: 6px 10px;
+  margin: 10px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: var(--text-color);
+  cursor: rgb(255, 255, 255) transition;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
