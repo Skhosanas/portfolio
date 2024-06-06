@@ -258,6 +258,10 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
         justify-content: center;
         align-items: center;
     }
+    .hero P{
+        font-size: 14px;
+        color: white;
+    }
     .icon-skills{
         width: 100%;
     }
