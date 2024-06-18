@@ -1,84 +1,50 @@
-body{
-  margin: 0;
+body {
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-}
-
-header{
-  
-}
-
-.top {
-  padding: 20px;
-  background-color: rgb(18, 16, 23);
-  color: aliceblue;
-  font-family: 'roboto', Times, serif;
-  display: flex;
-  justify-content:  space-between;
-  align-items: center;
-  font-size: 12px;
-  
-}
-
-li{
-  list-style: none;
-  display: inline-block;
-  padding-right: 20px;
-  justify-items: right;
+  background-color: black;
 
 }
 
-input{
-  width: 1000px;
-  margin-left: -10px;
-  margin-right: -10px;
-  height: 40px;
-  border: 0px;
-  padding: 0;
-  padding: 20px;
-  font-size: 14px;
+.container {
+  margin: 0 auto;
+}
 
-}
-.btn{
-  width: 50px;
-  height: 41px;
-  background-color: rgb(228, 194, 149);
-  border: 0;
-  border-radius: 0px 10px 10px 0;
-  padding: 0;
-}
-.btn-2{
-  width: 50px;
-  height: 41px;
-  border-radius: 10px 0 0 10px;
-}
-#iconi{
-  width: 20px;
+P {
+  font-size: 50px;
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 
-#flag{
-  width: 30px;
-  margin-right: 8px;
+.UI-UX-Designer{ 
+  position: relative;
 }
 
-.top-center{
-  justify-content: center;
+
+.UI-UX-Designer::after {
+  /* position: relative; */
+  content: 'UI-UX-Designer';
+  background-image: url(./images/squiggly.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: rgb(253, 14, 18);
+  position: absolute;
+  left: 10%;
+  top: 0;
+  height: 110%;
+  animation: UI-UX-Designer 0.5s ease 0.5s both;
 }
 
-.top-right{
-  
-}
-.logo{
-  
-}
+@keyframes UI-UX-Designer{
+  from {
+    opacity: 0;
+    transform: translate(-60%);
+  }
 
-.top-left{
-  display: flex;
-  
-}
-
-span{
-  font-size: 14px;
-  font-weight: 600;
-}
+  to {
+    transform: translatex(-50%);
+    opacity: 1;
+  }
+} 
