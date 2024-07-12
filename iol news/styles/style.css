@@ -22,17 +22,19 @@ picture {
 }
 
 /* heabder*/
-/* .row{
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  align-items: center;
-} */
+/* ÷ */
 
 .logo {
-  display: flex;
-  width: 150px;
-  justify-content: flex-end;
+  width: 50%;
+
+}
+
+.header-a {
+  text-align: center;
+}
+
+.footer-svg-1 {
+  justify-content: center;
 
 }
 
