@@ -140,7 +140,6 @@ video::-webkit-media-controls-play-button {
 }
 
 
-.left-menu {}
 
 .row-1 {
     display: grid;
@@ -267,6 +266,35 @@ img {
     background-color: white;
 }
 
+/* New Navbar */
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.dropdown-menu li .dropdown-item {
+    color: gray;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* New Navbar */
+
 /* background: rgb(249,125,6);
 background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%);  */
 
@@ -280,6 +308,46 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
         background-position: center;
     }
 
+    .dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+    }
+
+    .dropdown-menu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-menu ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .dropdown-menu li .dropdown-item {
+        color: gray;
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    .dropdown-menu li .dropdown-item:hover {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown-menu li:first-child a {
+        font-weight: bold;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: #516beb;
+    }
+
+    .dropdown-menu li:first-child a:hover {
+        background-color: #f1f1f1;
+    }
+
     .hero {
         width: 60%;
     }
@@ -291,6 +359,21 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
     /* CONTENT WRAPPER */
     #content-wrapper {
         padding-left: var(--sidbar-width);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+        width: 40vw;
+        flex-wrap: wrap;
     }
 }
 
