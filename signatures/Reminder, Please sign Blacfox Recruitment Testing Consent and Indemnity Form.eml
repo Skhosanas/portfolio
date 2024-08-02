@@ -1,0 +1,583 @@
+Return-Path: <bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com>
+Delivered-To: dumi@emaildeveloper.co.za
+Received: from cphost19.vpslocal.co.za
+	by cphost19.vpslocal.co.za with LMTP
+	id yEbRKaWwrGZHhzEADqIwFA
+	(envelope-from <bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com>)
+	for <dumi@emaildeveloper.co.za>; Fri, 02 Aug 2024 12:10:45 +0200
+Return-path: <bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com>
+Envelope-to: dumi@emaildeveloper.co.za
+Delivery-date: Fri, 02 Aug 2024 12:10:45 +0200
+Received: from se-filter03.tld-mx.com ([169.239.218.2]:40366)
+	by cphost19.vpslocal.co.za with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com>)
+	id 1sZpFI-0000000DdFz-0oxN
+	for dumi@emaildeveloper.co.za;
+	Fri, 02 Aug 2024 12:10:45 +0200
+Received: from o1.ptr3567.signaturely.com ([198.21.4.148])
+	by se-filter03.tld-mx.com with esmtps (TLSv1.3:TLS_AES_256_GCM_SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com>)
+	id 1sZpEt-007z7u-52
+	for dumi@emaildeveloper.co.za; Fri, 02 Aug 2024 12:10:45 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=signaturely.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:
+	cc:content-type:from:subject:to;
+	s=s1; bh=nW1pF5nmZoRwnJ6EJPstfKbwNclzgb8wsE8RKtCqB2M=;
+	b=iRMuBestnCoE7Iq0Dn++3J/jbAHOvvuJSWmfWmU72JQKdN4kxoa3mdrGi5VRZJ54IDco
+	RitMEZG7exFcA7VKZ/xjy0AwpW7PSI2MVNQIDrL3oemhK3RmUv0jkn8X1PYWzuUWf/xqvU
+	qKWZD1hsIhTaEeTpKsNa/Bla6omwNGKeclf8WWTE8+IfKfHyAKOCUqzFEgcqdZxn5JlQ2w
+	QZXfI5r4t+WFGe7GL2LyFo4pk4SY4xpvZTG1M0LpKhTNrbCCh3EBCgQD9MwElQm4EHkm+5
+	54bJfiV28WmLYrGjkQbXQMv03HEH4wZVsSRUhJG4o2663PUeFyowjS2ctSmE/rDw==
+Received: by recvd-7855c4c6cb-5wb7q with SMTP id recvd-7855c4c6cb-5wb7q-1-66ACB08B-8
+	2024-08-02 10:10:19.172418832 +0000 UTC m=+305481.475226200
+Received: from MTYwODkyMTI (unknown)
+	by geopod-ismtpd-15 (SG) with HTTP
+	id igF2368cSEmbnK4Or_xugw
+	Fri, 02 Aug 2024 10:10:19.098 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Date: Fri, 02 Aug 2024 10:10:19 +0000 (UTC)
+From: Stephan Englebrecht <noreply@signaturely.com>
+Mime-Version: 1.0
+Message-ID: <ccbcb5c7-fd5d-2aab-57d7-b2a5a63b4e9e@signaturely.com>
+Subject: Reminder, Please sign Blacfox Recruitment Testing Consent and
+ Indemnity Form
+X-SG-EID: 
+ =?us-ascii?Q?u001=2Eb5NQdhXOIyPgzI06XBoPS2wMV0K4FGXo=2FhqIerLRTr14HSPEMdGpsorrX?=
+ =?us-ascii?Q?PP4VHUehH63vmFpdWMXEaV65kcCcF8akzYKf8bL?=
+ =?us-ascii?Q?Yw+XT5pUUDxVB5qefDre+3rZa=2FDG23ZvtQmUoEQ?=
+ =?us-ascii?Q?nBwDeumL2oMQCs83Gk5sVwlCQzaXMI8x8sW2tqT?=
+ =?us-ascii?Q?TyDzdUu+Vf3M=2FHZq1kCEObtGXk4hbxIhNd8Qsdb?=
+ =?us-ascii?Q?O5w7wsERyATggJT5=2FkwDrAbEG=2FNqZo8GWu6GoOq?=
+ =?us-ascii?Q?OZIlABhyi4YmHjENr4thKrpnjA=3D=3D?=
+To: dumi@emaildeveloper.co.za
+X-Entity-ID: u001.q1aD89+FH6zBH3Z3ZKyI0A==
+Received-SPF: pass (se-filter03.tld-mx.com: domain of em9330.signaturely.com designates 198.21.4.148 as permitted sender) client-ip=198.21.4.148; envelope-from=bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com; helo=o1.ptr3567.signaturely.com;
+X-SPF-Result: se-filter03.tld-mx.com: domain of em9330.signaturely.com designates 198.21.4.148 as permitted sender
+Authentication-Results: se-filter03.tld-mx.com;
+	iprev=pass (o1.ptr3567.signaturely.com) smtp.remote-ip=198.21.4.148;
+	spf=pass smtp.mailfrom=em9330.signaturely.com;
+	dkim=pass header.d=signaturely.com header.s=s1 header.a=rsa-sha256;
+	dmarc=pass header.from=signaturely.com
+Authentication-Results:  tld-mx.com; spf=pass smtp.mailfrom=bounces+16089212-1c02-dumi=emaildeveloper.co.za@em9330.signaturely.com; dkim=pass header.i=signaturely.com
+X-SpamExperts-Class: ham
+X-SpamExperts-Evidence: Combined (0.15)
+X-Recommended-Action: accept
+X-Filter-ID: 8G1aH+8yearZuN6N5+X5bm6KuAmzEgFjeXz34jnHp0yUbbjGR2IRRoiRCclrUvUZVaPuWW65IIT8
+ lIUNtU+PTFEQyVzDVZOlehQ3EiJLhbvdxwlBgUOJBy2o7LD2h134ROakolz+G/3iM/r5n6SO4OaV
+ SkZaB3v/IqidIfBMgc8edmS7GqD6Jpg4Gl7emdy+0452DsZE+olky512av1zvj+pzZ9pWPL0RaDI
+ KX3AFrbHyHOVr5cVpTRXTtdbi9IJN6EjbI9VGkIOJQo0uGg5Gklg7IYnrB63BGAXZiaLqMXubnKR
+ CWLMwQsTRZMeWPbo19O+FDL3QxO2aifVXY0hQ8ztdQUSqk/AeLi65+4s/LrywTM2yEHEhvC9Izsy
+ /NENTMQ3Kg3hL2oXz5A5E5R/dS4GkJ5hfB+qWugfDEytZYrvl4ZKfm8TL9G6ZeEPfxKUP08AD3ty
+ B5k6GVeSDsUG8vd3YwFY3vJjffSwfj3H/8RIT950QsgDGkqjmi28XvE0UviarfCo8Ag+EIxMaap7
+ KkovzIm3+KABio/JYb2zGJXjVGEGcISjSOQpJEVF5x1f3TQ3XNW75kcM0I7R0xJ3Qj3dKxLhoxcm
+ aInYbR5vlqGNV+hBoGk0rTRA5o+hQUvIdJPuBH6QFgwVdjSwAe/B1hR9Ovbqz/k9Jlx8RTZkJCvy
+ UT8InQIFBuNsgjEbfWwV2OUMeHyTpNN0eXybX/w7/4aHZ4/R79uxJN4cv5MsU1OUrFS1Uwf7mFUB
+ zhClTNVC/PQWqW7k4dbX/wrPiU+Ry95qG1jDk9aVse55xtQEfzOV0h1Phl7tXhoW6Pq03lO0jNTd
+ bmIs8QUne4ykYr8sRtWHyBPpbjRYSnVMWKY08418KxCUC0QaBFrYmSSwJbsUAIPAlS22z7f83OBb
+ Nw1VYk4KHTWjbI5Z70wUi5aOx7hAVpI7LGsmYby+gLdrgzElTvOZKOWbpPd4+3638O8+M808u0Ju
+ tP3YkfSf30vtdclK3AUtzwKOAbotB9cENV4fVk8TITZyT1VCSnAf0EN9T3fbrMFcJFGQ81k55mGX
+ zcjBOqq8U4pVvgE4jZDT2GmGPjUZtfpa43xvMRkoQ/zYzqkgsnq2YdHMNQhGOMdLA4n7YNAxI+XD
+ PrPTD32EiD53qUGI08MeLUB8zDC3zQ1HoQ==
+X-Report-Abuse-To: spam@se-filter04.tld-mx.com
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+	<meta http-equiv=3D"Content-type" content=3D"text/html; charset=3Dutf-8">
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+, maximum-scale=3D1">
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+	<meta name=3D"format-detection" content=3D"date=3Dno">
+	<meta name=3D"format-detection" content=3D"address=3Dno">
+	<meta name=3D"format-detection" content=3D"telephone=3Dno">
+	<meta name=3D"x-apple-disable-message-reformatting">
+  <title>Email Template</title>
+  <style>
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp=
+50SjIw2boKoduKmMEVuLyfMZg.ttf) format('truetype');}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp=
+50SjIw2boKoduKmMEVuI6fMZg.ttf) format('truetype');}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp=
+50SjIw2boKoduKmMEVuGKYMZg.ttf) format('truetype');}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp=
+50SjIw2boKoduKmMEVuFuYMZg.ttf) format('truetype');}
+</style>
+  <style>
+@media only screen and (max-width: 620px) {
+  table[class=3Dbody] h1 {
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+  }
+
+  table[class=3Dbody] ul,
+table[class=3Dbody] ol,
+table[class=3Dbody] td,
+table[class=3Dbody] span,
+table[class=3Dbody] a {
+    font-size: 16px;
+  }
+
+  table[class=3Dbody] .wrapper,
+table[class=3Dbody] .article {
+    padding: 10px !important;
+  }
+
+  table[class=3Dbody] .content {
+    padding: 0 !important;
+  }
+
+  table[class=3Dbody] .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table[class=3Dbody] .main {
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table[class=3Dbody] .btn table {
+    width: 100% !important;
+  }
+
+  table[class=3Dbody] .btn a {
+    width: 100% !important;
+  }
+
+  table[class=3Dbody] .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+  }
+
+  .btn-primary table td:hover {
+    background-color: #34495e !important;
+  }
+
+  .btn-primary a:hover {
+    background-color: #34495e !important;
+    border-color: #34495e !important;
+  }
+}
+</style>
+</head>
+<body style=3D"background-color: #fefefe; -webkit-font-smoothing: antialias=
+ed; font-size: 14px; line-height: 1.4; -ms-text-size-adjust: 100%; font-fam=
+ily: 'Inter', sans-serif; -webkit-text-size-adjust: none; padding: 0; margi=
+n: 0; display: block; min-width: 100%; width: 100%;">
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+		<tr>
+			<td align=3D"center" valign=3D"top" style=3D"font-family: 'Inter', sans-=
+serif; font-size: 14px; padding: 0px;">
+				<!-- Container -->
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+					<tr>
+						<td align=3D"center" style=3D"font-family: 'Inter', sans-serif; font-=
+size: 14px;">
+              <!-- Inner Container -->
+							<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+								<tr>
+									<td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; wi=
+dth: 600px; min-width: 600px; padding-top: 83px; padding-bottom: 100px; mar=
+gin: 0;" width=3D"600">
+										<!-- Header -->
+                    <table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+ =20
+   =20
+ =20
+</table>
+										<!-- END Header -->
+
+										<!-- Intro -->
+										<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+											<tr>
+                        <td style=3D"font-family: 'Inter', sans-serif; font=
+-size: 14px; border: 1px solid #CEE0F0; box-shadow: 0px 2px 6px rgba(14, 10=
+0, 148, 0.09); border-radius: 9px;">
+                          <!-- Title Header-->
+                          <table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">
+														<tr>
+                              <td style=3D"font-family: 'Inter', sans-serif=
+; font-size: 14px;">
+                                <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;">
+                                  <tr>
+															      <td style=3D"font-family: 'Inter', sans-serif; font-si=
+ze: 14px;">
+                                      <table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt;">
+                                       =20
+                                       </table>
+                                    </td>
+                                  </tr><tr>
+                                </tr></table>
+                              </td>
+														</tr>
+                          </table>
+                          <!--END Title Header-->
+                          <!-- Content Header-->
+                          <table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">
+														<tr>
+                              <td style=3D"font-family: 'Inter', sans-serif=
+; font-size: 14px;">
+                                <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;">
+                                  <tr>
+															      <td style=3D"font-family: 'Inter', sans-serif; font-si=
+ze: 14px; padding: 41px 60px 0px 60px;">
+                                      <table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt;">
+                                       =20
+  <tr style=3D"display: block; margin-bottom: 26px;">
+    <td align=3D"center" style=3D"font-family: 'Inter', sans-serif; font-si=
+ze: 14px; padding: 0 58px;">
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;">
+       =20
+  <tr>
+    <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; display=
+: block; height: 82px; width: 82px; border-radius: 50%; margin: auto; box-s=
+hadow: 0px 4.75px 14.25px rgba(5, 37, 94, 0.17); margin-bottom: 8px; backgr=
+ound: none;" width=3D"82" height=3D"82">
+      <table style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: =
+100%; height: 100%; border-spacing: 0;" width=3D"100%" height=3D"100%">
+        <tr style=3D"vertical-align: middle;">
+          <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px;">
+            <p style=3D"font-family: 'Inter', sans-serif; font-size: 14px; =
+font-weight: normal; margin: 0; Margin-bottom: 15px; border-radius: 100%; w=
+idth: 80px; height: 80px; background-size: cover; background-repeat: no-rep=
+eat; background-image: url(https://signaturely-assets.s3-us-west-2.amazonaw=
+s.com/users/9d0246c4-73e0-4bf4-92bc-0bb748a80731/profile/40b7fc37-152b-4948=
+-9157-8bd5995995e9.jpg);">
+          </p></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+
+        <tr>
+          <td style=3D"font-family: 'Inter', sans-serif; text-align: center=
+; font-style: normal; font-weight: 500; font-size: 18px; line-height: 26px;=
+ color: #2D3C4A;" align=3D"center">
+            <span>
+              Kerushan Govender
+(<a href=3D"mailto:se@blacfox.com" style=3D"color: #00A3FA; text-decoration=
+: none;">se@blacfox.com</a>)
+
+
+             =20
+                sent you a reminder
+             =20
+            </span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+ =20
+  <tr style=3D"display: block; height: 42px;">
+    <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; display=
+: block;" align=3D"center">
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr>
+          <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px;">
+            <a href=3D"https://url2097.signaturely.com/ls/click?upn=3Du001.=
+QASDU5qrM7go1Zhr5uKUW-2FGndzZEcwz2-2Bw4NkgjVmGmQIkIWQ-2Brfino6hwaOnw3Nbi8st=
+ijx8aImoTdv5Fykpglegw2EeGdaLAOY1hWgbCa8CNC2wr-2BerQfjZa4b37OCBNzjYmQMgk0HL3=
+MuokzdWvZxbaMH5yINBFweHQQXeA6oyqx7Ch1zcfSO6-2F0gfpegmGvot5ZOUY-2FdeTNI5cTU6=
+1hvOx-2Fwup9vK-2FB6SgWyE4KmqWZqjkskQSTGAF8a8vRrAPj-2B-2B4LbeWCnPCph33OBTFVB=
+33dyeykYGp8gHGz6yuOJQZ4nRua0zpy-2F-2B2JFs7-2BDC8-2Bt0nog1XudQ7-2Bi0CgFTpTJs=
+Ox5rtpbaQ-2BeA36b8W-2BNtv45f-2BygwQgKZ5ZC08JURyQt7XAYNXesdYuhaZxGLAKe6i-2FA=
+oJNRtoJe-2FDFdbIg-3De6gs_zGyyGf6C-2BMy-2F5zkgst6jOdGbRFioehXRPCtwJvYeg8d8qH=
+MvkqmbDCMGu9nLedMSxew080n6138e4qfYPqDpKMABQqoMZol73vceZw6o1sxAS6PUpcVLQXzaK=
+xz-2BiMTIPGJsOAcn7UFhETHLLaYuDkq4NvToM25KRMkEk7ZUhijYB3lx070hcnJylrF4A2Qe0X=
+Z7lR7c7J-2FtUvzDfPgMEw-3D-3D" target=3D"_blank" style=3D"color: #3498db; di=
+splay: block; text-decoration: none; background: #00A3FA; border-radius: 11=
+0px; padding: 12px 42px; box-sizing: border-box; min-width: 182px; text-ali=
+gn: center;">
+              <span style=3D"color:#ffffff;font-size: 14px;">Review & Sign<=
+/span>
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align=3D"center" style=3D"font-family: 'Inter', sans-serif; font-si=
+ze: 14px; padding-top: 41px; border-bottom: 1px solid #CEE0F0;">
+    </td>
+  </tr>
+
+                                       </table>
+                                    </td>
+                                  </tr><tr>
+                                </tr></table>
+                              </td>
+														</tr>
+                          </table>
+                          <!--END Content Header-->
+                          <!-- Main Content-->
+													<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+                              <td style=3D"font-family: 'Inter', sans-serif=
+; font-size: 14px;">
+                                <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;">
+                                  <tr>
+															      <td style=3D"font-family: 'Inter', sans-serif; font-si=
+ze: 14px; padding: 35px 60px 40px 60px;">
+                                      <table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt;">
+                                       =20
+ =20
+<tr>
+  <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px;">
+    <span style=3D"text-align:left; font-style: normal;font-weight: 500;fon=
+t-size: 20px;line-height: 25px; color:#2D3C4A">Blacfox Recruitment Testing =
+Consent and Indemnity Form</span>
+  </td>
+</tr>
+
+
+<tr>
+  <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; padding-t=
+op: 14px;">
+    <span style=3D"color: #7D8D98; text-align:left;font-style: normal;font-=
+weight: bold;font-size: 16px;line-height: 20px;">Message:</span>
+  </td>
+</tr>
+<tr>
+  <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; padding-t=
+op: 10px;">
+    <span style=3D"color: #7D8D98; font-style: normal;font-weight: 400;font=
+-size: 14px;line-height: 22px; white-space:pre-line; word-break: break-word=
+;">
+      Hi there,
+
+Please read and sign.
+
+Thank you!
+-Steph (se@blacfox.com)
+    </span>
+  </td>
+</tr>
+
+
+
+
+  <tr>
+    <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; padding=
+-top: 12px;">
+      <a href=3D"https://url2097.signaturely.com/ls/click?upn=3Du001.QASDU5=
+qrM7go1Zhr5uKUW-2FGndzZEcwz2-2Bw4NkgjVmGmQIkIWQ-2Brfino6hwaOnw3Nbi8stijx8aI=
+moTdv5Fykpglegw2EeGdaLAOY1hWgbCa8CNC2wr-2BerQfjZa4b37OCBNzjYmQMgk0HL3Muokzd=
+WvZxbaMH5yINBFweHQQXeA6oyqx7Ch1zcfSO6-2F0gfpegmGvot5ZOUY-2FdeTNI5cTU61hvOx-=
+2Fwup9vK-2FB6SgWyE4KmqWZqjkskQSTGAF8a8vRrAPj-2B-2B4LbeWCnPCph33OBTFVB33dyey=
+kYGp8gHGz6yuOJQZ4nRua0zpy-2F-2B2JFs7-2BDC8-2Bt0nog1XudQ7-2Bi0CgFTpTJsOx5rtp=
+baQ-2BeA36b8W-2BNtv45f-2BygwQgKZ5ZC08JURyQt7XAYNXesdYuhaZxGLAKe6i-2FAoJNRto=
+Je-2FDFdbIg-3DRhVP_zGyyGf6C-2BMy-2F5zkgst6jOdGbRFioehXRPCtwJvYeg8d8qHMvkqmb=
+DCMGu9nLedMSxew080n6138e4qfYPqDpKMFTSaPGaYuD66pWTqcPm9PZ6UcG-2FkLG6NhuWB0-2=
+B8aqrRfulMCLo1R-2BjX-2Bt-2BSLyKAO29kOiBeG7PpI4T6MKeRL3v1D2RpFqAfZKIeHKQRELZ=
+e26jfu2iX7fCh0wZ98Kb9w-3D-3D" target=3D"_blank" style=3D"color: #3498db; te=
+xt-decoration: none;">
+        <span style=3D"color:#00A3FA; font-style: normal;font-weight: 400;f=
+ont-size: 14px;line-height: 18px;">View Document</span>
+      </a>
+    </td>
+  </tr>
+
+
+
+
+
+
+
+
+
+                                       =20
+  <tr>
+  <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; padding-t=
+op: 36px;">
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tr>
+        <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; bac=
+kground-color: #FFFBF3; border-radius: 6px;" bgcolor=3D"#FFFBF3">
+          <table style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tr>
+              <td style=3D"font-family: 'Inter', sans-serif; font-size: 14p=
+x; padding: 14px 27px 22px;">
+                <table style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;">
+                  <tr>
+                    <th valign=3D"top" style=3D"padding:6px 8px 0 0 ">
+                      <div style=3D"width: 16.34px; height: 14px; backgroun=
+d-image: url(https://signaturely-assets.s3-us-west-2.amazonaws.com/icons/wa=
+rning3x.png); background-size: contain;">
+                    </div></th>
+                    <th style=3D"text-align:left">
+                      <span style=3D"color:#E79B2A;font-style: normal;font-=
+weight: bold;font-size: 14px;line-height: 22px;">Warning:</span>
+                      <span style=3D"color:#E79B2A;font-style: normal;font-=
+weight: 400;font-size: 14px;line-height: 22px;">To prevent others from acce=
+ssing your document, please do not forward this email.</span>
+                    </th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+                                       =20
+ =20
+
+                                      </table>
+                                    </td>
+                                  </tr><tr>
+                                </tr></table>
+                              </td>
+														</tr>
+                          </table>
+                          <!--END Main Content-->
+                          <!-- Footer-->
+												=09
+  <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px; backg=
+round: #F0F6FA; border-radius: 0 0 9px 9px;">
+        <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tr>
+            <td style=3D"font-family: 'Inter', sans-serif; font-size: 14px;=
+ padding: 20px 60px 20px 60px;">
+              <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                <tr>
+                  <td align=3D"center" style=3D"font-family: 'Inter', sans-=
+serif; font-size: 14px;">
+                    <a href=3D"https://url2097.signaturely.com/ls/click?upn=
+=3Du001.QASDU5qrM7go1Zhr5uKUWwkRJAA5hYgQOyr677VQ2QHtGBGYFPRTiABjpj-2FNDgW28=
+rJhWCeM4nh2WXeR-2FR77kbhRstnemLfjP8IrcEK7KmoF2zTns0-2FDeKeQj7cLCnFGTCgdFnmk=
+8XzCu21xxe1LbdE7Q6I9Y0FqfwiWP5ZVD-2B2MDT9U68PSY79LlFTpdZLFDH62OfG5QBnmVGy5v=
+pzrfQ-3D-3D1tIn_zGyyGf6C-2BMy-2F5zkgst6jOdGbRFioehXRPCtwJvYeg8d8qHMvkqmbDCM=
+Gu9nLedMSxew080n6138e4qfYPqDpKPtygj4Rof2XKHHr4eti8FOxQBiodKIIye47XT0-2Bw-2B=
+rlx6efFSkiAXe3srwjvD-2BzHC-2FEHacTKU-2BBqcN3Rd30ylxR7D2kBT2I2CLgcms1OJKMwPe=
+IMiwHQ2ajx3rX58o7sw-3D-3D" target=3D"_blank" style=3D"color: #3498db; text-=
+decoration: none;">
+                      <span style=3D"color: #7D8D98;font-weight: 400;font-s=
+ize: 14px;font-family: arial;line-height: 22px;">
+                        Powered by <span style=3D"color: #66778e">Signature=
+ly</span>
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr><tr>
+        </tr></table>
+      </td>
+    </tr>
+  </table>
+
+
+                          <!--END Footer-->
+												</td>
+                      </tr>
+										</table>
+										<!-- END Intro -->
+									</td>
+								</tr>
+              </table>
+              <!-- END Inner Container -->
+						</td>
+					</tr>
+				</table>
+				<!-- END Container -->
+			</td>
+		</tr>
+	</table>
+<img src=3D"https://url2097.signaturely.com/wf/open?upn=3Du001.2dPGKz30H4i6=
+KEG7tKPCmK5P8l5a9pLVzW4jxyzQKgwHiyyPsUtz2dAHBcx0AWdFueRFk-2FNJqck7doopqbr2e=
+68U0rhcsjPz2vuRHxiWLWutDpg4cTaXRcJ25G4afiCpa6Q8bV2kxXNg-2FPoF9Ky9d5Pv9-2B-2=
+FhIX58pW6E1sthGlAeIkw-2Fp5C584BeJkOV8KvYlblFs20JpnxdXJN6sOST5teoolz9NDn4l1l=
+fbgAs-2BtM-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"heig=
+ht:1px !important;width:1px !important;border-width:0 !important;margin-top=
+:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-l=
+eft:0 !important;padding-top:0 !important;padding-bottom:0 !important;paddi=
+ng-right:0 !important;padding-left:0 !important;"/></body>
+</html>
