@@ -54,17 +54,18 @@ h6 {
 
 }
 
-.iframe-container-2{
+.iframe-container-2 {
     width: 900px;
-     
+
 
 }
+
 .iframe-container-2 iframe {
-width: 900px;
+    width: 900px;
 }
 
 .iframe-container {
-    width: 600px;
+    width: 620px;
     overflow: hidden;
     /* Prevent horizontal scroll */
     position: relative;
@@ -84,7 +85,7 @@ width: 900px;
     transform: scale(1);
     /* Ensure the content scales */
     transform-origin: 0 0;
-}   
+}
 
 .services-btn {
     margin-top: 30px;
@@ -335,7 +336,8 @@ img {
 .hide-on-mobile {
     display: block;
 }
-.hide-on-comp{
+
+.hide-on-comp {
     display: none;
 }
 
@@ -359,7 +361,7 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
     }
 
     .dropdown-menu.show {
-        display: flex   ;
+        display: flex;
     }
 
     .dropdown-menu.show {
@@ -419,12 +421,13 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
 
 @media only screen and (min-width: 992px) and (max-width: 1140px) {
     .hide-on-mobile {
-            display: none;
-        }
+        display: none;
+    }
 
     .hide-on-comp {
-            display: block;
-        }
+        display: block;
+    }
+
     .dropdown:hover .dropdown-menu {
         width: 40vw;
         flex-wrap: wrap;
@@ -432,38 +435,41 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
 }
 
 @media (max-width: 582px) {
-    .hide-on-mobile{
+    .hide-on-mobile {
         display: none;
     }
 
     .hide-on-comp {
-             display: block;
+        display: block;
     }
-    .col-md-9{
+
+    .col-md-9 {
         margin: 0 0 40px 0;
     }
+
     .iframe-container {
-            width: 480px;
-            overflow: hidden;
-            /* Prevent horizontal scroll */
-            position: relative;
-            padding-top: 90%;
-            overflow: hidden;
-            /* 16:9 aspect ratio */
-        }
-    
-        .iframe-container iframe {
-            overflow: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-            transform: scale(1);
-            /* Ensure the content scales */
-            transform-origin: 0 0;
-        }
+        width: 480px;
+        overflow: hidden;
+        /* Prevent horizontal scroll */
+        position: relative;
+        padding-top: 90%;
+        overflow: hidden;
+        /* 16:9 aspect ratio */
+    }
+
+    .iframe-container iframe {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        transform: scale(1);
+        /* Ensure the content scales */
+        transform-origin: 0 0;
+    }
+
     .hero {
         display: flex;
         width: 100%;
