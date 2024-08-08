@@ -453,7 +453,7 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
     }
 
     .iframe-container {
-        max-width: 362px;
+        max-width: 400px;
         overflow: hidden;
         /* Prevent horizontal scroll */
         position: relative;
