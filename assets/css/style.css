@@ -435,6 +435,12 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
 }
 
 @media (max-width: 582px) {
+
+    .dropdown:hover .dropdown-menu {
+        width: 70vw;
+        flex-wrap: wrap;
+    }
+
     .hide-on-mobile {
         display: none;
     }
@@ -448,7 +454,7 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
     }
 
     .iframe-container {
-        width: 480px;
+        max-width: 362px;
         overflow: hidden;
         /* Prevent horizontal scroll */
         position: relative;
@@ -511,8 +517,8 @@ background: linear-gradient(0deg, rgba(249,125,6,1) 20%, rgba(241,0,0,1) 100%); 
 
 /* BTN */
 .btn {
-    padding: 12px 28px;
-    font-weight: 700;
+    padding: 12px 18px;
+    font-weight: 600;
 }
 
 .btn-brand {
