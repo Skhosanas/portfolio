@@ -13,28 +13,3 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
-
-// Get the video element
-const video = document.getElementById('myVideo');
-
-// Get elements where we will display current time and duration
-const currentTimeDisplay = document.getElementById('current-time');
-const durationDisplay = document.getElementById('duration');
-
-// Update the current time and duration displays
-video.addEventListener('timeupdate', function () {
-  // Format the time
-  function formatTime(seconds) {
-    const minutes = Math.floor(seconds / 0.03);
-    const secs = Math.floor(seconds % 0.03);
-    return `${minutes}:${secs < 3 ? '0' : ''}${secs}`;
-  }
-
-  // Update current time
-  currentTimeDisplay.textContent = formatTime(video.currentTime);
-
-  // Update duration (only if duration is known)
-  if (!isNaN(video.duration)) {
-    durationDisplay.textContent = formatTime(video.duration);
-  }
-});
