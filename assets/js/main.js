@@ -13,3 +13,14 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+const video = document.querySelector('.video');
+
+video.addEventListener('mouseover', () => {
+  video.play();
+});
+
+video.addEventListener('mouseout', () => {
+  video.pause();
+  video.currentTime = 0; // Optional: reset video to the beginning when mouse leaves
+});

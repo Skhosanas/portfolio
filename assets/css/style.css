@@ -27,6 +27,7 @@ body {
     background-blend-mode: overlay;
     color: var(--color-body);
     font-family: "Open Sans", sans-serif;
+    font-weight: 200;
 }
 
 h1,
@@ -39,19 +40,6 @@ h6 {
     font-weight: 700;
 }
 
-.new-btn {
-    padding: 10px 0;
-    color: var(--new-col-3);
-    font-weight: 600;
-    transition: 0.3s;
-    border: 0;
-}
-
-.new-btn:hover {
-    color: #ffffff;
-    transform: translatex(10);
-
-}
 
 .iframe-container-2 {
     width: 900px;
@@ -142,16 +130,17 @@ a {
 .video-container {
     max-width: 800px;
     margin: 0 auto;
-}
-
-video {
-    width: 100%;
-    display: block;
+    overflow: hidden;
 }
 
 .video-patrait {
     width: 100%;
     height: 100%;
+    display: block;
+}
+
+.video {
+    width: 100%;
     display: block;
 }
 
@@ -173,8 +162,6 @@ video::-webkit-media-controls-play-button {
     text-align: center;
     margin-top: 5px;
 }
-
-
 
 .row-1 {
     display: grid;
@@ -247,7 +234,7 @@ img {
 }
 
 .shadow-effect:hover {
-    box-shadow: -6px 6px 0 0 var(--color-brand);
+    box-shadow: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
 }
 
 .iconbox {
