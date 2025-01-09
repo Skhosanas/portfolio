@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.01 52.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f7f8;
+        font-family: Poppins-Light, Poppins;
+        font-weight: 300;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #6ac7be;
+      }
+
+      .cls-4 {
+        font-size: 48.12px;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(3.2 42.96)"><tspan class="cls-2" x="0" y="0">D</tspan><tspan class="cls-1" x="34.98" y="0">umi</tspan></text>
+  <rect class="cls-3" x="120.65" y="6.78" width="5.62" height="5.62"/>
+</svg>
