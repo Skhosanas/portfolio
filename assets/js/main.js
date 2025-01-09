@@ -14,6 +14,7 @@ AOS.init({
 
 });
 
+
 const video = document.querySelector('.video');
 
 video.addEventListener('mouseover', () => {
@@ -24,3 +25,5 @@ video.addEventListener('mouseout', () => {
   video.pause();
   video.currentTime = 0; // Optional: reset video to the beginning when mouse leaves
 });
+
+
