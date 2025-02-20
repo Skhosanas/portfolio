@@ -15,15 +15,34 @@ AOS.init({
 });
 
 
-const video = document.querySelector('.video');
+// Select the image element
+const gifImage = document.getElementById('gif-image');
 
-video.addEventListener('mouseover', () => {
-  video.play();
+// Define the source for the static image and the animated GIF
+const gifSrc = './assets/images/chef.gif';   // Replace with your actual animated GIF
+const staticSrc = './assets/images/chef.png';  // Replace with your static image
+
+// Add mouseenter event to start the animation
+gifImage.addEventListener('mouseenter', () => {
+  gifImage.src = gifSrc;  // Change to animated GIF on hover
 });
 
-video.addEventListener('mouseout', () => {
-  video.pause();
-  video.currentTime = 0; // Optional: reset video to the beginning when mouse leaves
+// Add mouseleave event to return to the static image
+gifImage.addEventListener('mouseleave', () => {
+  gifImage.src = staticSrc;  // Change back to static image when hover ends
+});
+
+
+// Get the video element
+const videoPlayer = document.getElementById('videoPlayer');
+
+// Loop until the video is paused
+videoPlayer.addEventListener('play', () => {
+  videoPlayer.loop = true;  // Ensure the video loops when played
+});
+
+videoPlayer.addEventListener('pause', () => {
+  videoPlayer.loop = false;  // Stop looping when the video is paused
 });
 
 
