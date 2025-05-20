@@ -5,8 +5,8 @@ html {
 :root {
     --color-body: #7c7b7b;
     --color-heading: #eef3db;
-    --color-base: #131313;
-    --color-base2: #101318;
+    --color-base: #000000;
+    --color-base2: #000000;
     --color-brand: rgb(232, 15, 160);
     --color-brand2: #b71858;
     --sidbar-width: 240px;
@@ -128,7 +128,6 @@ a {
     position: relative;
     width: 100%;
     height: 600px;
-    max-width: 100%;
     /* Optional max-width */
     padding-top: 56.25%;
     /* Aspect ratio 16:9 (height / width = 9 / 16 = 0.5625) */
@@ -249,7 +248,8 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color: var(--color-base);
+    background-color: var(--color-base2);
+    border-right: 0.5px solid rgba(86, 85, 85, 0.315);
 }
 
 
